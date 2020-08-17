@@ -52,7 +52,7 @@ const propTypes = {
   removeEventHandlers: PropTypes.func.isRequired,
 };
 
-console.log('test');
+console.log('test2');
 
 const App = ({ removeEventHandlers }) => {
   const store = useStore();
