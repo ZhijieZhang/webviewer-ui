@@ -44,7 +44,6 @@ import actions from 'actions';
 
 import './App.scss';
 
-
 // TODO: Use constants
 const tabletBreakpoint = window.matchMedia('(min-width: 641px) and (max-width: 900px)');
 
@@ -52,7 +51,7 @@ const propTypes = {
   removeEventHandlers: PropTypes.func.isRequired,
 };
 
-console.log('test2');
+console.log('');
 
 const App = ({ removeEventHandlers }) => {
   const store = useStore();
